@@ -26,12 +26,12 @@
 
 == Design
 
-AddressBook saves data in a plain text file, one line for each person, in the format `NAME p/PHONE e/EMAIL`.
+AddressBook saves data in a plain text file, one line for each person, in the format `NAME d/DOB p/PHONE e/EMAIL`.
 Here is an example:
 
 ....
-John Doe p/98765432 e/johnd@gmail.com
-Jane Doe p/12346758 e/jane@gmail.com
+John Doe d/01.12.90 p/98765432 e/johnd@gmail.com
+Jane Doe d/31.01.00 p/12346758 e/jane@gmail.com
 ....
 
 All person data are loaded to memory at start up and written to the file after any command that mutates data.
