@@ -251,7 +251,7 @@ public class AddressBook {
      */
     private static void echoUserCommand(String userCommand) {
         System.out.println(LINE_PREFIX);
-        showToUser("[Command entered: " + userCommand + "]");
+        showToUser("[Command entered:" + userCommand + "]");
     }
 
     /**
